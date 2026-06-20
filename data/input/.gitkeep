@@ -1,0 +1,11 @@
+# This directory contains input data files
+# Place your data files here:
+#   - REPORT REVENUE STG 2026.xlsx (Revenue & NGTMA data)
+#   - target.xlsx (Target values)
+#   - historical.xlsx (2025 historical data for YoY)
+#   - data_collection.xlsx (Collection performance data)
+#   - bright_hsi.csv, bright_bw.csv (Bright connectivity data)
+#   - exact_hsi.csv, exact_bw.csv, exact_wifi.csv (Exact connectivity data)
+
+# These files are NOT tracked in git for security reasons.
+# See GITHUB_READINESS.md for details.

@@ -1,0 +1,5 @@
+# This directory contains generated KPI reports
+# Output Excel files will be saved here when you run main.py
+
+# These files are NOT tracked in git for security reasons.
+# See GITHUB_READINESS.md for details.

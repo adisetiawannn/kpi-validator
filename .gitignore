@@ -1,0 +1,43 @@
+# ========== Sensitive Data ==========
+# Source data files (company proprietary)
+data/input/*
+data/output/*
+data/cache/*
+!data/input/.gitkeep
+!data/output/.gitkeep
+# Credentials & Secrets
+.env
+.env.local
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# ========== Python ==========
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+*.egg
+
+# ========== IDE & OS ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ========== Local Testing ==========
+test_outputs/
+*.log
+*.ipynb
+
+# ========== Internal Docs ==========
+CLAUDE.md
+fix_collection_code.md
+GITHUB_PUSH_READINESS_FINAL.md
+read_clean_data.py
