@@ -36,7 +36,7 @@ def _ask_scaling(prompt: str) -> float:
 
 def _ask_territory() -> str:
     while True:
-        raw = input("  Territory? (contoh: NAMA_WITEL) : ").strip().upper()
+        raw = input("  Territory? (contoh: AREA_01) : ").strip().upper()
         if raw: return raw
         print("  ⚠️  Territory tidak boleh kosong.")
 

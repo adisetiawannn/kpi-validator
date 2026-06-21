@@ -5,6 +5,19 @@ data/output/*
 data/cache/*
 !data/input/.gitkeep
 !data/output/.gitkeep
+
+# ── Sample dummy data (fiktif, untuk showcase) — di-track ──────────────
+# Hanya file dengan nama persis ini yang di-un-ignore. Data asli (nama
+# berbeda, mis. *.REAL.local.xlsx) tetap ter-ignore.
+!data/input/REVENUE FILE.xlsx
+!data/input/data target.xlsx
+!data/input/data historical.xlsx
+!data/input/data_collection.xlsx
+!data/input/PRODA FILE.csv
+!data/input/PRODB FILE.csv
+!data/input/PRODA FILE 2.csv
+!data/input/PRODB FILE 2.csv
+!data/input/PRODC FILE.csv
 # Credentials & Secrets
 .env
 .env.local
